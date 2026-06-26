@@ -6,8 +6,8 @@ st.title("📂 Dataset")
 
 @st.cache_data
 def load_data():
-    raw = pd.read_csv("../data/raw/reporte_clinica.csv")
-    clean = pd.read_csv("../data/processed/reporte_clinica_clean.csv")
+    raw = pd.read_csv("data/raw/reporte_clinica.csv")
+    clean = pd.read_csv("data/processed/reporte_clinica_clean.csv")
     return raw, clean
 
 raw, clean = load_data()
