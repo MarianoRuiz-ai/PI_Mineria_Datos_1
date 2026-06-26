@@ -8,7 +8,7 @@ st.title("📊 Análisis Exploratorio de Datos")
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("../data/processed/reporte_clinica_clean.csv")
+    return pd.read_csv("data/processed/reporte_clinica_clean.csv")
 
 df = load_data()
 sns.set_theme(style="whitegrid", palette="muted")
