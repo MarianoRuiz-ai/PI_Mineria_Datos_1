@@ -14,18 +14,18 @@ st.markdown("---")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.markdown("### 📋 Información del proyecto")
+    st.markdown("###  Información del proyecto")
     st.markdown("""
     **Materia:** Minería de Datos 1  
-    **Comisión:** [Completar]  
+    **Comisión:** Nueva Esperanza - Turno Mañana  
     **Fecha de entrega:** [Completar]  
-    **Integrantes:**
-    - [Nombre Integrante 1]
-    - [Nombre Integrante 2]
+    **Alumno:**
+    - Ruiz Mariano
+
     """)
 
 with col2:
-    st.markdown("### 🎯 Contexto")
+    st.markdown("###  Contexto")
     st.markdown("""
     Este proyecto analiza un dataset de costos médicos de pacientes con el objetivo de
     identificar los factores que más influyen en el valor de los cargos médicos y detectar
