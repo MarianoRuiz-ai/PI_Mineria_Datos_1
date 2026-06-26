@@ -11,7 +11,7 @@ st.title("🔬 Reducción de Dimensionalidad — PCA")
 
 @st.cache_data
 def load_and_compute():
-    df = pd.read_csv("../data/processed/reporte_clinica_clean.csv")
+    df = pd.read_csv("data/processed/reporte_clinica_clean.csv")
     df['smoker_num'] = df['smoker'].map({'yes': 1, 'no': 0})
     variables_pca = ['age', 'bmi', 'children', 'smoker_num', 'charges']
     X = df[variables_pca].values
