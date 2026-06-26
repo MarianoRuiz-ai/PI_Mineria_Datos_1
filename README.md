@@ -1,8 +1,8 @@
 # Proyecto Integrador — Minería de Datos 1
 
-**Integrantes:** [Nombre 1] · [Nombre 2]  
-**Comisión:** [Completar]  
-**Fecha:** [Completar]
+**Integrantes:** Ruiz Mariano · Ovejero Cesar  
+**Comisión:** Nueva Esperanza-Turno Mañana  
+**Fecha:** 30/06/26
 
 ---
 
