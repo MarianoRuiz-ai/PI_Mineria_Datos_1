@@ -1,0 +1,11 @@
+Paso,Descripción,Filas,Nulos,Retención (%)
+0 - Estado inicial,Dataset original sin modificaciones,1363,152,100.0
+1 - Normalización sex,Conversión a minúsculas (Female→female / Male→male),1363,0,100.0
+2 - Normalización smoker,Conversión a minúsculas (Yes→yes / No→no),1363,0,100.0
+3 - Normalización region,Unificación de abreviaciones (SE→southeast / NE→northeast / SW→southwest / NW→northwest),1363,0,100.0
+4 - Eliminación outliers children,Eliminación de registros con children < 0 o children > 20 (3 registros),1360,0,99.8
+5 - Eliminación outliers bmi,Eliminación de registros con bmi >= 100 (valor 999.0 detectado en 6 registros),1354,0,99.3
+6 - Imputación age,Imputación de 102 valores nulos con la mediana (39.0),1354,0,99.3
+7 - Imputación bmi,Imputación de 44 valores nulos con la mediana (30.4) tras eliminar outliers,1354,0,99.3
+8 - Eliminación columna índice,Eliminación de columna 'Unnamed: 0' sin valor analítico,1354,0,99.3
+9 - Reindexado y guardado,Dataset procesado guardado en data/processed/reporte_clinica_clean.csv,1301,0,95.5
